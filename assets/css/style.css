@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #002940;
+    --secondary-color: #000A0F;
+    --tertiary-color: #fff;
+    --quaternary-color: #000
+}
+
+body {
+    margin: 0;
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color)
+}
