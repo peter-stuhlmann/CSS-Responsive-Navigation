@@ -100,3 +100,30 @@ body {
 .mainnav:target + .backdrop {
     position: fixed
 }
+
+
+
+@media (min-width: 700px) {
+
+    .mainnav-toggle {
+        display: none
+    }
+
+    .mainnav {
+        position: relative;
+        left: auto;
+        top: auto;
+        height: auto
+    }
+
+    .mainnav ul {
+        display: flex;
+        padding: 0;
+        box-shadow: none;
+        background: none
+    }
+
+    .mainnav a {
+        color: var(--tertiary-color)
+    }
+}
