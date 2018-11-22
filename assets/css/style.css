@@ -19,7 +19,6 @@ body {
 /* navbar */
 
 #navbar {
-    background-color: var(--quaternary-color);
     position: sticky;
     top: 0;
     z-index: 10
@@ -32,9 +31,8 @@ body {
     display: inline-block;
     padding: 0.75em 15px;
     line-height: 1em;
-    float: left;
     font-size: 1.4em;
-    color: #fff;
+    color: var(--primary-color);
     width: 100%
 }
 
