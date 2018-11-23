@@ -1,4 +1,4 @@
-# CSS-Responsive-Navigation
+# CSS Responsive Navigation with Dropdown Submenu
 
 **CSS only!**
 
