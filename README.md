@@ -1,8 +1,8 @@
-# CSS Responsive Navigation with Dropdown Submenu
+# CSS Responsive Navigation with Dropdown Submenu _(CSS only!)_
 
-**CSS only!**
 
-> Here you can find the [demo version](https://peter-stuhlmann-webentwicklung.de/projects/css-responsive-dropdown-navigation/ "Forwarding to external website") of this project. 
+[![MIT License](https://img.shields.io/github/license/peter-stuhlmann/CSS-Responsive-Navigation.svg)](LICENSE) ![Code size](https://img.shields.io/github/languages/code-size/peter-stuhlmann/CSS-Responsive-Navigation.svg) ![downloads](https://img.shields.io/github/downloads/peter-stuhlmann/CSS-Responsive-Navigation/total.svg) [![open issues](https://img.shields.io/github/issues/peter-stuhlmann/CSS-Responsive-Navigation.svg)](https://github.com/peter-stuhlmann/CSS-Responsive-Navigation/issues) [![closed issues](https://img.shields.io/github/issues-closed/peter-stuhlmann/CSS-Responsive-Navigation.svg)](https://github.com/peter-stuhlmann/CSS-Responsive-Navigation/issues?q=is%3Aissue+is%3Aclosed)
+
 
 ## Desktop version with dropdown (hover)
 
@@ -16,4 +16,6 @@
 
 ![Screenshot Mobile version](assets/images/mobile-menu-open.png "Mobile version Navigation")
 
-> Here you can find the [demo version](https://peter-stuhlmann-webentwicklung.de/projects/css-responsive-dropdown-navigation/ "Forwarding to external website") of this project.
+---
+
+[&copy; Peter R. Stuhlmann Webentwicklung](https://peter-stuhlmann-webentwicklung.de)
