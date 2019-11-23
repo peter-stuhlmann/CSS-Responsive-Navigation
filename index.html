@@ -1,87 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>CSS Responsive Navigation | CSS only!</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-</head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
+      <a href="#mainnav" class="mainnav-toggle">
+        <span class="fa fa-bars">&nbsp;</span>
+      </a>
 
-            <a href="#mainnav" class="mainnav-toggle">
-                <span class="fa fa-bars">&nbsp;</span>
-            </a>
-  
-            <nav id="mainnav" class="mainnav">
-                <ul>
-                    <li><a href="#">Link I</a></li>
-                    <li class="dropdown"><a href="#">Link II</a>
+      <nav id="mainnav" class="mainnav">
+        <ul>
+          <li><a href="#">Link I</a></li>
+          <li class="dropdown">
+            <a href="#">Link II</a>
 
-                        <section id="subnav">
+            <section id="subnav">
+              <ul>
+                <li><a href="#">Link A</a></li>
+                <li><a href="#">Link B</a></li>
+                <li><a href="#">Link C</a></li>
+                <li><a href="#">Link D</a></li>
+                <li><a href="#">Link E</a></li>
+              </ul>
 
-                            <ul>
-                                <li><a href="#">Link A</a></li>
-                                <li><a href="#">Link B</a></li>
-                                <li><a href="#">Link C</a></li>
-                                <li><a href="#">Link D</a></li>
-                                <li><a href="#">Link E</a></li>
-                            </ul>
+              <section class="subnav-image">
+                <img src="assets/images/placeholder.png" alt="Placeholder" />
+              </section>
+            </section>
+          </li>
+          <li><a href="#">Link III</a></li>
+          <li><a href="#">Link IV</a></li>
+        </ul>
+      </nav>
 
-                            <section class="subnav-image">
-                                <img src="assets/images/placeholder.png" alt="Placeholder">
-                            </section>
-
-                        </section>
-
-                    </li>
-                    <li><a href="#">Link III</a></li>
-                    <li><a href="#">Link IV</a></li>
-                </ul>
-            </nav>
-
-            <a href="#" class="backdrop"></a>
-
+      <a href="#" class="backdrop"></a>
     </header>
 
     <main>
-        
-        <h1>Responsive Drowdown-Menu</h1>
-        <h2>CSS only!</h2>
+      <h1>Responsive Drowdown-Menu</h1>
+      <h2>CSS only!</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum iure ipsam doloribus, officiis itaque quaerat tempore deleniti, consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae provident delectus corrupti? Pariatur atque, est perspiciatis aliquid deleniti voluptatum inventore minima magni labore ullam asperiores veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum similique error recusandae praesentium dolorum, necessitatibus cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam ratione, dicta sapiente sed asperiores magnam provident. Praesentium cumque nostrum, nobis.</p>
-
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum
+        iure ipsam doloribus, officiis itaque quaerat tempore deleniti,
+        consequatur nulla numquam unde cupiditate at amet sunt omnis. Magnam, a
+        eius ipsum, at possimus libero voluptatum placeat odio! Velit voluptas
+        consectetur deleniti fugit perferendis ab aliquid, voluptates nemo, quae
+        provident delectus corrupti? Pariatur atque, est perspiciatis aliquid
+        deleniti voluptatum inventore minima magni labore ullam asperiores
+        veniam magnam consequatur fugiat distinctio placeat eligendi animi ipsum
+        similique error recusandae praesentium dolorum, necessitatibus
+        cupiditate. Illum minus maxime nemo, praesentium delectus quae sit quam
+        ratione, dicta sapiente sed asperiores magnam provident. Praesentium
+        cumque nostrum, nobis.
+      </p>
     </main>
 
     <footer>
-
-        <p>&copy; <a href="https://peter-stuhlmann-webentwicklung.de">Peter R. Stuhlmann</a>, 2018</p>
-
+      <p>
+        &copy;
+        <a href="https://peter-stuhlmann-webentwicklung.de"
+          >Peter R. Stuhlmann</a
+        >, 2018
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
