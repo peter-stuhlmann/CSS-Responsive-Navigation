@@ -2,9 +2,14 @@ body {
   margin: 0;
   background-color: $tertiaryColor;
   color: $quaternaryColor;
-}
 
-main,
-footer {
-  padding: 15px;
+  header {
+    position: sticky;
+    top: 0;
+  }
+
+  main,
+  footer {
+    padding: 15px;
+  }
 }
